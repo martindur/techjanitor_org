@@ -1,6 +1,7 @@
-FROM python::3.8.0-alpine
+FROM python:3.8.0-alpine
 
 ENV PYTHONUNBUFFERED 1
+ENV DEBUG 1
 
 COPY . /usr/src/app/techjanitor_org/
 
